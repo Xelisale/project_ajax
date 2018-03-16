@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script type="text/javascript" src="jquery.js"></script>
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<script src="js/bootstrap.min.js"></script>
+<script type="text/javascript" src="test2.js"></script>
+<title>Page Title</title>
+</head>
+<body>
+  
+  <!--Modal window-->
+
+<div id="modWind" class="modal fade">
+  <div class="modal-content">
+    <div class="modal-dialog modal-sm">
+      <div class="modal-header"><button class="close noDelete" type="button" data-dismiss="modal">X</button>
+      <h4 class="modal-title"></h4></div>
+      <div class="modal-body"><strong>Body window</strong></div>
+      <div class="modal-footer">
+        <button class="btn btn-default" id="Delete" type="button">Да</button>
+        <button class="btn btn-default noDelete" type="button">Нет</button>
+      </div>
+    </div>
+  </div>
+</div> 
+  <!--Table-->
+
+<table class="table table-striped">
+  <thead>
+    <tr class="row">
+      <th>#</th>
+      <th>First Name</th>
+      <th>Last Name</th>
+      <th>Username</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr class="row">
+      <th scope="row">1</th>
+      <td>Mark</td>
+      <td>Otto</td>
+      <td>@mdo</td>
+      <td><button type="button" class="btn btn-danger">Удалить</button></td>
+    </tr>
+    <tr class="row">
+      <th scope="row">2</th>
+      <td>Jacob</td>
+      <td>Thornton</td>
+      <td>@fat</td>
+      <td><button type="button" class="btn btn-danger">Удалить</button></td>
+    </tr>
+    <tr class="row">
+      <th scope="row">3</th>
+      <td>Larry</td>
+      <td>the Bird</td>
+      <td>@twitter</td>
+      <td><button type="button" class="btn btn-danger">Удалить</button></td>
+    </tr>
+  </tbody>
+</table>
+
+</body>
+</html>
